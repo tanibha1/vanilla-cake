@@ -1,0 +1,214 @@
+
+html{
+    font-size: 90.5%;
+}
+
+#head-ing{
+    width:80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5.0rem;
+}
+#head-ing #recipe-name{
+    display: block;
+    position: relative;
+    margin-bottom: 1.5rem;
+    font-size: 4.0rem;
+    font-family: Play, 'Times New Roman', Times, serif;
+}
+#head-ing #header-text{
+    font-size: 14px;
+    color: #4F4F4F;
+    display: block;
+    position  : relative;
+    width: 60%;
+    margin-left: 5.0rem;
+    font-style: italic;
+    font-family: Mon, Arial, Arial, Helvetica, sans-serif;
+}
+
+#cake-image{
+    position: relative;
+    display: block;
+    margin: 1.0rem 0;
+    width: 90%;
+    border-radius: 1.0rem;
+    height: 65.0rem;
+    margin-top: 2.0rem;
+    object-fit: cover;
+}
+#recipe-list {
+    width: 70%;
+}
+#recipe-list #first-half{
+    font-family: Play,'Time New Roman', Times, serif;
+    font-size: 24px;
+    margin: 22px;
+}
+ #recipe-list .first-list{
+     font-family: Play,'Time New Roman',Times, serif;
+     font-style: italic;
+     font-weight: 300;
+     font-size: 18px;
+     margin: 1.0rem 0;
+ }
+
+ #recipe-list #menu-item {
+     display: flex;
+     flex-wrap: wrap;
+     list-style: none;
+ }
+ #recipe-list #menu-item li{
+     width: 100%;
+     position: relative;
+     margin: 0.5rem 0;
+     display: flex;
+ }
+
+ #recipe-list #menu-item  li p{
+     display: inline-block;
+     position: relative;
+     width: 80%;
+     font-family: Mon, Helvetica, sans-serif;
+     font-size: 1.4rem;
+     color: #333333;
+ }
+ input[type="checkbox"]{
+     width: 1.0rem;
+     height: 1.0rem;
+     margin-right: 1.5rem;
+     
+
+ }
+ #menu-item{
+     display: flex;
+     flex-wrap: wrap;
+     list-style: none;
+
+ }
+ #instraction-ed{
+     display:flex;
+     position:relative;
+     margin: 1.0rem 0;
+     width:100%;
+ }
+ #instraction-menu #menu-ins .menu-chat-b{
+     position: relative;
+     display: inline-block;
+     width: 5%;
+     height: 4.0rem;
+     text-align: center;
+     background-color: #f09400;
+     color:#fff;
+     font-size: 1.5rem;
+     border-radius: 0.5rem;
+     line-height: 3.0rem;
+     margin-right:1.5rem;
+     font-family: Play,Arial,Helvetica, sana-serif;
+ }
+
+ #instraction-menu #menu-ins .menu-chat-b p{
+     font-style:normal;
+     font-weight: normal;
+     font-size:16px;
+     width: 90%;
+     line-height: 20px;
+     font-family: Mon, Arial, Helvetica, sans-serif;
+     color:#333333;
+ }
+
+ #recipe-details{
+     width: 20%;
+     display: flex;
+     flex-wrap: wrap;
+     border-radius: 0.5rem;
+     justify-content: center;
+     box-shadow: 0 0 1.0rem #9c9c9c26;
+     padding: 5.0rem 1.0rem;
+     position:absolute;
+     right:0;
+     top:0;
+ }
+
+ #recipe-details .recipe-detail{
+     position: relative;
+     display:flex;
+     width: 60%;
+     margin: 1.0rem 0;
+ }
+
+ .recipe-detail:first-child i{
+    color: #f09400;
+ }
+
+ .recipe-detail:first-child div h4 {
+     color: #f09400;
+ }
+
+ .recipe-detail i {
+     color: #4F4F4F;
+     margin-right: 1.0rem;
+     font-size: 1.5rem;
+ }
+
+ .recipe-detail div h6 {
+     text-transform: uppercase;
+     font-family: Mon, Arial, Helvetica, sans-serif;
+     font-size: 2px;
+     color: #BDBDBD;
+ }
+
+ .recipr-detail div p{
+      font-size: 2.4rem;
+      color: #333333;
+      font-family: Mon, Arial, Helvetica, sans-serif;
+ }
+
+ .heading5{
+    margin-top: 3.0rem;
+    font-size: 1.0rem;
+    color: #747474;
+    font-family: Mon, Arial, Helvetica, sans-serif;
+ }
+
+ .heading5 .link{
+     color: #747474;
+ }
+
+ footer{
+     position: relative;
+     margin-top: 6.0rem;
+     width: 100%;
+     text-align: center;
+ }
+ footer h5{
+     padding:0.5rem;
+     font-family:Mon, Arial, Helvetica, sans-serif;
+     font-size: 1.0mrem;
+     color: #747474;
+
+ }
+ @media only screen and (min-width: 1600px) {
+     #head-ing   {
+         width: 50%;
+     }
+
+ }
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
